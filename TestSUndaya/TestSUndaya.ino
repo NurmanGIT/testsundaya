@@ -8,9 +8,9 @@ const char* password = "sundaya22";
 const char* serverIP = "<ip_address_device>";
 
 const int potentiometerPin = 34; // Pin A0 pada ESP32
-const int serPin = 18; // Pin SER pada ESP32
-const int rclkPin = 19; // Pin RCLK pada ESP32
-const int srclkPin = 23; // Pin SRCLK pada ESP32
+const int serPin = 17; // Pin SER pada ESP32
+const int rclkPin = 16; // Pin RCLK pada ESP32
+const int srclkPin = 15; // Pin SRCLK pada ESP32
 
 AsyncWebServer server(80);
 
